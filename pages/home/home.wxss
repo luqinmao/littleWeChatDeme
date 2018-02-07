@@ -1,0 +1,19 @@
+/* pages/home/home.wxss */
+.video_box{padding:40rpx;background:transparent}
+.video_box .video_list{width: 100%;height:328rpx;position: relative;margin-bottom: 40rpx;overflow: hidden;border-radius: 14rpx;border:1rpx solid #d8d8d8;}
+.video_box .video_list>image{width:100%;border-radius: 14rpx;}
+.video_box .video_list .title{position: absolute;padding: 10rpx 20rpx;width:100%;bottom: 0;color: #fff;overflow: hidden;background: rgba(0, 0, 0, 0.3);}
+.video_box .video_list .title>image{float: left;width:76rpx;height:76rpx;}
+.video_box .video_list .title>.content{float: left;margin-left: 20rpx;}
+.video_box .video_list .title>.content .font_10{line-height: 1.8;}
+.video_box .video_list .title>.content .font_14{max-width:500rpx;overflow: hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;line-height:1.5;}
+
+
+.articleSwitchBtn{
+padding-top: 0.5rem ;
+margin:0 40rpx;
+}
+.articleSwitchBtn.active {
+	border-top: #fff 1rpx solid ;
+	
+}

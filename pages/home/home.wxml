@@ -1,0 +1,15 @@
+<!--pages/home/home.wxml-->
+<view class="video_box">
+  <navigator wx:for="{{list}}" url="articleDetal?id={{item.id}}"  bindtap="toDetalView">
+    <view class="video_list">
+      <image src="{{item.pic}}" mode="widthFix"></image>
+      <view class="title">
+        <view class="content">
+          <view class="font_14">{{item.title}}</view>
+          <view class="font_10">{{item.niceDate}} </view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+
+</view>

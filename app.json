@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/type",
+    "pages/home/articleDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "番茄IT",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#ff6700",
+    "color": "#000",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "image/clock.png",
+        "selectedIconPath": "image/clock_selected.png"
+      },
+      {
+        "pagePath": "pages/home/type",
+        "text": "分类",
+        "iconPath": "image/class.png",
+        "selectedIconPath": "image/class_selected.png"
+      }
+    ]
+  }
+}
